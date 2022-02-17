@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta charset="iso-8859-1" />
+  <meta name="application-name" content="Trigave" />
+  <meta name="author" content="Kevin Miguel Ruiz Gonzalez" />
+  <meta name="description" content="admin application Trigave" />
+  <meta name="keywords" content="website, webpage, trigave, cookies, company" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Trigave</title>
+</head>
+
+<body>
+  <form id='form' name='form' method='post' action='login.js'>
+    <figure>
+      <img src="foto/Logo.png" alt="trigave logo">
+    </figure>
+    <div>
+      <label for="email">
+        Hola, favor de identificarse tipo de usuario!
+      </label>
+      <input id="email" name="email" type="email" placeholder="Introduce tu email" onfocus="if(this.placehoder == "")this.placeholder =" Introduce tu email"" required/>
+    </div>
+    <div>
+      <label for="pass">
+        Contraseña (8 caracteres minimo)
+      </label>
+      <input type="password" id="pass" name="password" placeholder="Introduce tu contraseña" onfocus="if(this.placehoder == "")this.placeholder =" Introduce tu contraseña"" minlength="8" required />
+    </div>
+
+    <input type="submit" name="Submit" id="button" value="Entrar" />
+  </form>
+
+  <footer>
+    <div>All rights reserved &copy; 2022</div>
+  </footer>
+</body>
+
+</html>
